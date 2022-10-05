@@ -10,7 +10,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'crypto curency',
+    title: 'Tic Tac Toe',
     github: 'https://github.com',
     demo: 'https://dribbble.com/Alien_pixels'
   },
@@ -46,7 +46,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
                   <a href={github} className='btn' target='animeshmaiti'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='amake08'>Live Demo</a>
+                  <a href={demo} className='btn btn-primary' target='amake08'>Play</a>
                 </div>
               </article>
             )

@@ -50,6 +50,20 @@ h1,h2,h3,h4,h5{
 h1{
     font-size: 2.5rem;
 }
+h6{
+    position: relative;
+    font-size: 5vw;
+    color: #252839;
+    -webkit-text-stroke: 0.2vw #383d52;
+    text-transform: uppercase;
+    left: 20rem;
+    width: 38.4%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+}
 
 section{
     margin-top: 8rem;
