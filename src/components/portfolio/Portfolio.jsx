@@ -24,9 +24,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'security enhence',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Moving Lambo Animation',
+    github: 'https://github.com/animeshmaiti/moving-lambo.git',
+    demo: 'https://animeshmaiti.github.io/moving-lambo/'
   }
 ]
 
