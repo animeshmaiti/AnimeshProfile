@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AnimeshProfile/static/css/main.1871af8e.css",
-    "main.js": "/AnimeshProfile/static/js/main.462f80dd.js",
+    "main.css": "/AnimeshProfile/static/css/main.9e99a5ab.css",
+    "main.js": "/AnimeshProfile/static/js/main.3e0c6e08.js",
     "static/media/portfolio3.jpg": "/AnimeshProfile/static/media/portfolio3.962e2511093b6f2e7640.jpg",
     "static/media/avatar1.jpg": "/AnimeshProfile/static/media/avatar1.8c3e367b2a77e92e33e4.jpg",
     "static/media/avatar2.jpg": "/AnimeshProfile/static/media/avatar2.ad30f4261cac5ab97c9d.jpg",
@@ -12,11 +12,11 @@
     "static/media/me.png": "/AnimeshProfile/static/media/me.5ca4b670a32b71681d2c.png",
     "static/media/me-about.png": "/AnimeshProfile/static/media/me-about.1772c385b0ad6ea2cd29.png",
     "index.html": "/AnimeshProfile/index.html",
-    "main.1871af8e.css.map": "/AnimeshProfile/static/css/main.1871af8e.css.map",
-    "main.462f80dd.js.map": "/AnimeshProfile/static/js/main.462f80dd.js.map"
+    "main.9e99a5ab.css.map": "/AnimeshProfile/static/css/main.9e99a5ab.css.map",
+    "main.3e0c6e08.js.map": "/AnimeshProfile/static/js/main.3e0c6e08.js.map"
   },
   "entrypoints": [
-    "static/css/main.1871af8e.css",
-    "static/js/main.462f80dd.js"
+    "static/css/main.9e99a5ab.css",
+    "static/js/main.3e0c6e08.js"
   ]
 }
