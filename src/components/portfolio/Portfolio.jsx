@@ -11,15 +11,15 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Tic Tac Toe',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    github: 'https://github.com/animeshmaiti/tic-tac-toe.git',
+    demo: 'https://animeshmaiti.github.io/tic-tac-toe/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'color trading',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Analog clock',
+    github: 'https://github.com/animeshmaiti/analog-clock.git',
+    demo: 'https://animeshmaiti.github.io/analog-clock/'
   },
   {
     id: 3,
