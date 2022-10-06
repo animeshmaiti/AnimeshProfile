@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -10,19 +12,39 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 // import Projects from './components/projects/Projects'
 const App = () => {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 4000);
+  }, [])
+
   return (
-    <>
-        <Header />
-        <Nav /> 
-        <About /> 
-        <Experience />
-        <Services />
-        <Portfolio />
-        {/* <Projects /> */}
-        <Testimonials />
-        <Contact />
-        <Footer />
-    </>
+    <div>
+      {
+        loading ?
+        <div className='Loading'>
+        <ClimbingBoxLoader
+        size={30}
+        color={"#36d7b7"}
+        loading = {loading}
+        />
+        </div>
+      :
+      <div>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      </div>
+}
+    </div>
   )
 }
 
