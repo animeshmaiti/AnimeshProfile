@@ -100,17 +100,15 @@ h6::before{
     font-size: 0.9rem;
 }
 /*============= media queries (medium devices) =============*/
-@media screen and (max-width: 1024x) {
+@media screen and (max-width: 912px) {
     header{
         height: 68vh;
     }
-    
 }
 
-/*============= media queries (medium devices) =============*/
 @media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        height: 80vh;
     }
     @keyframes animate{
         0%,10%,100%{
