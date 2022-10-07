@@ -16,7 +16,7 @@ const Header = () => {
       strings:[
         "Hello I'm"
       ]}}/>
-      <h6>Animesh...</h6>
+      <h6 data-text ="Animesh...">Animesh...</h6>
       {/* <h1>Animesh...</h1> */}
       <h5 className="text-light">Fullstack Devloper</h5>
       <CTA/>

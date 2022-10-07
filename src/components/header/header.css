@@ -9,35 +9,41 @@ header{
     color: #252839;
     -webkit-text-stroke: 0.2vw #383d52;
     text-transform: uppercase;
-    left: 20rem;
-    width: 38.4%;
+    left: 27vw;
+    width: 35.3%;
     color: #01fe87;
     -webkit-text-stroke: 0vw #383d52;
     border-right: 2px solid #01fe87;
     overflow: hidden;
     animation: animate 4s linear infinite;
 } */
-
-/* h6::before{
+h6{
+    position: relative;
+    font-size: 7vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+h6::before{
     content: attr(data-text);
     position: absolute;
     top: 0;
-    left: 10.8rem;
-    width: 38.4%;
+    left: auto;
+    width: auto;
     height: 100%;
     color: #01fe87;
     -webkit-text-stroke: 0vw #383d52;
     border-right: 2px solid #01fe87;
     overflow: hidden;
     animation: animate 4s linear infinite;
-} */
+}
 
 @keyframes animate{
     0%,10%,100%{
         width: 0;
     }
     70%,90%{
-        width: 38.4%;
+        width: 49%;
     }
 }
 .header_container{
@@ -98,6 +104,7 @@ header{
     header{
         height: 68vh;
     }
+    
 }
 
 /*============= media queries (medium devices) =============*/
@@ -105,14 +112,17 @@ header{
     header{
         height: 100vh;
     }
-    /* h6{
-        left: 1rem;
-    } */
+    @keyframes animate{
+        0%,10%,100%{
+            width: 0;
+        }
+        70%,90%{
+            width: 43%;
+        }
+    }
 
     .header_socials,.scroll_down{
         display: none;
     }
-    /* h6{
-        left: 1rem;s
-    } */
+    
 }
