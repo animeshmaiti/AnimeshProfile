@@ -100,7 +100,7 @@ h6::before{
     font-size: 0.9rem;
 }
 /*============= media queries (medium devices) =============*/
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 820px) {
     header{
         height: 68vh;
     }
