@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/AnimeshProfile/static/css/main.9e99a5ab.css",
-    "main.js": "/AnimeshProfile/static/js/main.be361de1.js",
+    "main.css": "/AnimeshProfile/static/css/main.e7002b8f.css",
+    "main.js": "/AnimeshProfile/static/js/main.c361ba8c.js",
     "static/media/portfolio3.jpg": "/AnimeshProfile/static/media/portfolio3.962e2511093b6f2e7640.jpg",
     "static/media/avatar1.jpg": "/AnimeshProfile/static/media/avatar1.8c3e367b2a77e92e33e4.jpg",
     "static/media/avatar2.jpg": "/AnimeshProfile/static/media/avatar2.ad30f4261cac5ab97c9d.jpg",
     "static/media/portfolio2.jpg": "/AnimeshProfile/static/media/portfolio2.24856857caadbf3a69f0.jpg",
+    "static/media/portfolio4.jpg": "/AnimeshProfile/static/media/portfolio4.382e04a9477303332fdc.jpg",
     "static/media/cv.pdf": "/AnimeshProfile/static/media/cv.629e4fd42ea15daa9c2a.pdf",
     "static/media/avatar3.jpg": "/AnimeshProfile/static/media/avatar3.947600b6a2bf974a690b.jpg",
     "static/media/portfolio1.jpg": "/AnimeshProfile/static/media/portfolio1.e30fee73410c4088d6be.jpg",
     "static/media/me.png": "/AnimeshProfile/static/media/me.5ca4b670a32b71681d2c.png",
     "static/media/me-about.png": "/AnimeshProfile/static/media/me-about.1772c385b0ad6ea2cd29.png",
     "index.html": "/AnimeshProfile/index.html",
-    "main.9e99a5ab.css.map": "/AnimeshProfile/static/css/main.9e99a5ab.css.map",
-    "main.be361de1.js.map": "/AnimeshProfile/static/js/main.be361de1.js.map"
+    "main.e7002b8f.css.map": "/AnimeshProfile/static/css/main.e7002b8f.css.map",
+    "main.c361ba8c.js.map": "/AnimeshProfile/static/js/main.c361ba8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e99a5ab.css",
-    "static/js/main.be361de1.js"
+    "static/css/main.e7002b8f.css",
+    "static/js/main.c361ba8c.js"
   ]
 }
