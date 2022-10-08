@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-// import IMG5 from '../../assets/portfolio5.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
 // import IMG6 from '../../assets/portfolio6.jpg'
 const data = [
   {
@@ -34,6 +34,13 @@ const data = [
     title: 'chrome-dino-game',
     github: 'https://github.com/animeshmaiti/chrome-dino-game.git',
     demo: 'https://animeshmaiti.github.io/chrome-dino-game/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'coding-template',
+    github: 'https://github.com/animeshmaiti/cheatSheet-coding-temp.git',
+    demo: 'https://animeshmaiti.github.io/cheatSheet-coding-temp/'
   }
 ]
 
