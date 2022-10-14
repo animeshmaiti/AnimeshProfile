@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-// import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.jpg'
 const data = [
   {
     id: 1,
@@ -41,6 +41,13 @@ const data = [
     title: 'coding-template',
     github: 'https://github.com/animeshmaiti/cheatSheet-coding-temp.git',
     demo: 'https://animeshmaiti.github.io/cheatSheet-coding-temp/'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'social-media-style',
+    github: 'https://github.com/animeshmaiti/side-socialsDesigne-css.git',
+    demo: 'https://animeshmaiti.github.io/side-socialsDesigne-css/'
   }
 ]
 
