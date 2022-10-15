@@ -4,7 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
-import nightMODE from '../../assets/moon.png'
+// import nightMODE from '../../assets/moon.png'
 import lightMODE from '../../assets/sun.png'
 
 const Header = () => {
@@ -14,13 +14,13 @@ const Header = () => {
       document.body.classList.toggle("dark-theme");
     }
   }
-  const chIcon=()=>{
-    if (document.body.classList.contains("dark-theme")) {
-      <img src={lightMODE} alt="lightmode" />              
-  }else{
-      <img src={nightMODE} alt="nightmode" />
-  }
-  }
+  // const chIcon=()=>{
+  //   if (document.body.classList.contains("dark-theme")) {
+  //     <img src={lightMODE} alt="lightmode" />              
+  // }else{
+  //     <img src={nightMODE} alt="nightmode" />
+  // }
+  // }
   
 
   return (
