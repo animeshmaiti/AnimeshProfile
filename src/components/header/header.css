@@ -63,6 +63,9 @@ h6::before{
 .mode{
     width: 30px;
     cursor: pointer;
+    position: absolute;
+    right: -2.3rem;
+    display: inline-block;
 }
 /*============ HEADER SOCIALS =============*/
 .header_socials{
