@@ -4,13 +4,26 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
-import MODE from '../../assets/moon.png'
+import nightMODE from '../../assets/moon.png'
+import lightMODE from '../../assets/sun.png'
 
 const Header = () => {
+  const ChTheme=() =>{
+    var icon=document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+          icon.src ={lightMODE};               
+      }else{
+          icon.src ={nightMODE};
+      }
+  }
+  }
+
   return (
     <header>
       <div id='home' className="container header_container">
-      <div className='mode'><img src={MODE} alt="mode" /></div>
+      <div onClick={ChTheme} id='icon'><img src={nightMODE} alt="mode" /></div>
       <Typewriter 
       options={{autoStart:true,
       loop:true,

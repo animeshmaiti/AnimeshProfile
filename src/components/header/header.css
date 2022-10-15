@@ -60,7 +60,7 @@ h6::before{
     gap: 1.2rem;
     justify-content: center;
 }
-.mode{
+#icon{
     width: 30px;
     cursor: pointer;
     position: absolute;
