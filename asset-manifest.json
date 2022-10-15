@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/AnimeshProfile/static/css/main.654cb3a0.css",
-    "main.js": "/AnimeshProfile/static/js/main.72553d91.js",
+    "main.css": "/AnimeshProfile/static/css/main.ec0e71ea.css",
+    "main.js": "/AnimeshProfile/static/js/main.bce90e17.js",
+    "static/media/portfolio6.jpg": "/AnimeshProfile/static/media/portfolio6.c99772e68895c5bc29e7.jpg",
     "static/media/portfolio3.jpg": "/AnimeshProfile/static/media/portfolio3.962e2511093b6f2e7640.jpg",
     "static/media/avatar1.jpg": "/AnimeshProfile/static/media/avatar1.8c3e367b2a77e92e33e4.jpg",
     "static/media/avatar2.jpg": "/AnimeshProfile/static/media/avatar2.ad30f4261cac5ab97c9d.jpg",
@@ -14,11 +15,11 @@
     "static/media/me.png": "/AnimeshProfile/static/media/me.5ca4b670a32b71681d2c.png",
     "static/media/me-about.png": "/AnimeshProfile/static/media/me-about.1772c385b0ad6ea2cd29.png",
     "index.html": "/AnimeshProfile/index.html",
-    "main.654cb3a0.css.map": "/AnimeshProfile/static/css/main.654cb3a0.css.map",
-    "main.72553d91.js.map": "/AnimeshProfile/static/js/main.72553d91.js.map"
+    "main.ec0e71ea.css.map": "/AnimeshProfile/static/css/main.ec0e71ea.css.map",
+    "main.bce90e17.js.map": "/AnimeshProfile/static/js/main.bce90e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.654cb3a0.css",
-    "static/js/main.72553d91.js"
+    "static/css/main.ec0e71ea.css",
+    "static/js/main.bce90e17.js"
   ]
 }
