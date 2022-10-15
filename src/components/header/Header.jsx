@@ -2,12 +2,14 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
+import MODE from '../../assets/moon.png'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
 
 const Header = () => {
   return (
     <header>
+      <div className='mode'><img src={MODE} alt="mode" /></div>
       <div id='home' className="container header_container">
       <Typewriter 
       options={{autoStart:true,
