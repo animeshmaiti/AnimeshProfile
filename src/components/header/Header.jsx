@@ -8,22 +8,25 @@ import nightMODE from '../../assets/moon.png'
 import lightMODE from '../../assets/sun.png'
 
 const Header = () => {
+  var icon=document.getElementById("icon");
   const ChTheme=() =>{
-    var icon=document.getElementById("icon");
-    icon.onclick=function(){
+      icon.onclick=function(){
       document.body.classList.toggle("dark-theme");
-      if (document.body.classList.contains("dark-theme")) {
-          icon.src ={lightMODE};               
-      }else{
-          icon.src ={nightMODE};
-      }
+    }
+  }
+  const chIcon=()=>{
+    if (document.body.classList.contains("dark-theme")) {
+      <img src={lightMODE} alt="lightmode" />              
+  }else{
+      <img src={nightMODE} alt="nightmode" />
   }
   }
+  
 
   return (
     <header>
       <div id='home' className="container header_container">
-      <div onClick={ChTheme} id='icon'><img src={nightMODE} alt="mode" /></div>
+      <div onClick={ChTheme} id='icon'><img src={lightMODE} alt="lightmode" /></div>
       <Typewriter 
       options={{autoStart:true,
       loop:true,
