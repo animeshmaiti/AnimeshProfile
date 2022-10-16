@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AnimeshProfile/static/css/main.ec0e71ea.css",
-    "main.js": "/AnimeshProfile/static/js/main.8c2c8fea.js",
+    "main.js": "/AnimeshProfile/static/js/main.42b6c536.js",
     "static/media/portfolio6.jpg": "/AnimeshProfile/static/media/portfolio6.c99772e68895c5bc29e7.jpg",
     "static/media/portfolio3.jpg": "/AnimeshProfile/static/media/portfolio3.962e2511093b6f2e7640.jpg",
     "static/media/avatar1.jpg": "/AnimeshProfile/static/media/avatar1.8c3e367b2a77e92e33e4.jpg",
@@ -16,10 +16,10 @@
     "static/media/me-about.png": "/AnimeshProfile/static/media/me-about.1772c385b0ad6ea2cd29.png",
     "index.html": "/AnimeshProfile/index.html",
     "main.ec0e71ea.css.map": "/AnimeshProfile/static/css/main.ec0e71ea.css.map",
-    "main.8c2c8fea.js.map": "/AnimeshProfile/static/js/main.8c2c8fea.js.map"
+    "main.42b6c536.js.map": "/AnimeshProfile/static/js/main.42b6c536.js.map"
   },
   "entrypoints": [
     "static/css/main.ec0e71ea.css",
-    "static/js/main.8c2c8fea.js"
+    "static/js/main.42b6c536.js"
   ]
 }
