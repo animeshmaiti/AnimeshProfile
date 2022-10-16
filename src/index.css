@@ -30,7 +30,7 @@
     --container-width-sm: 90%;
      
 }
-.dark-theme{
+.light-theme{
     --color-bg: rgba(255, 255, 255, 0.753);/*back ground color*/
     --color-bg-variant: #5478b1;/*also need to be change*/
     --color-primary: #4db5ff;
